@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(/Imagens/Fundo-furia.jpg);
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-areas:
+      "cabecalho cabecalho cabecalho"
+      "esquerda centro direita"
+      "rodape rodape rodape";
+    grid-template-columns: 340px 1120px 340px;
+    grid-template-rows: 200px 600px 200px;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .cabecalho {
+    grid-area: cabecalho;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .cabecalho h1 {
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    height: 120px;
+  }
+  
+  .lateral {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lateral img.banner {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  .esquerda {
+    grid-area: esquerda;
+  }
+  
+  .direita {
+    grid-area: direita;
+  }
+  
+  .centro {
+    grid-area: centro;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #chat-box {
+    height: 480px;
+    overflow-y: auto;
+    border: 2px solid #9146FF;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #0d0d0d;
+  }
+  
+  .msg {
+    margin: 10px 0;
+  }
+  
+  .user {
+    color: #FFD700;
+  }
+  
+  .bot {
+    color: #50fa7b;
+  }
+  
+  #input-area {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #9146FF;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .rodape {
+    grid-area: rodape;
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
