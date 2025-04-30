@@ -46,9 +46,9 @@ Se sua landing page tiver funcionalidades interativas importantes, você pode li
 
 * Chat interativo entre fãs e o bot do chat.
 * Comandos do chat:
-"/agenda"
-"/time"
-"/clip"
+"/agenda",
+"/time",
+"/clip",
 "vamos furia"
 
 ## Autor
