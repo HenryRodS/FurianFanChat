@@ -4,7 +4,7 @@
 
 ## Visão Geral
 
-Este projeto foi criado com base nas especificações e requerimentos dados pelo processo seletivo para a vaga de Assistente de Engenharia de Software, o mesmo trata-se uma LandPage personalizada com o Logo e Marca da Furia exibindo um chat interativo para os Fãs poderem se comunicar entre si, torcer, entre outros, no momento atual esse chat simula como um bot funcionaria respondendo as mensagens dos Fãs e a comandos específicos.
+Este projeto foi criado com base nas especificações e requerimentos dados pelo processo seletivo para a vaga de Assistente de Engenharia de Software pela FURIA, o mesmo trata-se uma LandPage personalizada com o Logo e Marca da Furia exibindo um chat interativo para os Fãs poderem se comunicar entre si, torcer, entre outros, no momento atual esse chat simula como um bot funcionaria respondendo as mensagens dos Fãs e a comandos específicos.
 
 ## Tecnologias Utilizadas
 
